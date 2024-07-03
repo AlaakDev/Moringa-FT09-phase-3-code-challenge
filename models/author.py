@@ -4,7 +4,7 @@ class Author:
     def __init__(self, id, name):
         self.id = id
         self.name = name
-    def __init__(self, name):
+    def __init__(self, id,name):
         self.conn = CONN
         self.cursor = CURSOR
         self._id = None
